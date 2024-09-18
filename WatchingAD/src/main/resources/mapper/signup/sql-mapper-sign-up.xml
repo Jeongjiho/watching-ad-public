@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.watchingad.watchingad.api.signup.mapper.SignUpConfigMapper">
+	
+	<!-- <select id="getLatestConfig" resultType="signUpConfigDto">
+		SELECT
+			IDX,
+			AGREE_CONTENT1,
+			AGREE_CONTENT2,
+			DATE_FORMAT(CREATE_DATETIME, '%Y-%m-%d %H:%i:%s') AS CREATE_DATETIME,
+			DATE_FORMAT(UPDATE_DATETIME, '%Y-%m-%d %H:%i:%s') AS UPDATE_DATETIME,
+			DELETE_YN
+		FROM
+			WT_SIGN_UP_CONFIG
+		ORDER BY
+			IDX DESC
+		LIMIT 1
+	</select> -->
+	
+</mapper>
